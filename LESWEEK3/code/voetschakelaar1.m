@@ -1,5 +1,5 @@
 % Data analyse op basis van voetschakelaardata
-
+clear all; close all; clc;
 
 
 %% Data inladen
@@ -29,18 +29,41 @@ rechts2(rechts < 3000)  =  0;
 links2(links >= 3000)   =  1;
 rechts2(rechts >= 3000) =  1;
 
+plot(tijdsas,links2);
+title('Voetstapdata linkerbeen')
+xlabel('Tijd (seconde)');
+ylabel('Detectie van een voetstap');
+figure; %nieuw figuur aanmaken voor een plot
+plot(tijdsas,rechts2,'r');
+title('Voetstapdata rechterbeen')
+xlabel('Tijd (seconde)');
+ylabel('Detectie van een voetstap');
 %% Identificeren van stappen
 % we bekijken alleen de linkerzijde
 %
 % Het doel is het maken van het volgende plaatje:
 
-indHS = find(diff(links2)==1);
-indTO = find(diff(links2)==-1);
-figure
+indHS_L = find(diff(links2)==1);
+indTO_L = find(diff(links2)==-1);
+indHS_R = find(diff(rechts2)==1);
+indTO_R = find(diff(rechts2)==-1);
+figure; %nieuw figuur aanmaken voor een plot
 hold on
 plot(tijdsas,links2,'b');
-plot(tijdsas(indHS),links2(indHS),'ro');
-plot(tijdsas(indTO),links2(indTO),'go');
+plot(tijdsas(indHS_L),links2(indHS_L),'ro');
+plot(tijdsas(indTO_L),links2(indTO_L),'go');
+title('Voetstapdata linkerbeen met Toe-off en Heel-strike')
+xlabel('Tijd (seconde)');
+ylabel('Detectie van een voetstap');
+hold off
+figure; %nieuw figuur aanmaken voor een plot
+hold on
+plot(tijdsas,rechts2,'r');
+plot(tijdsas(indHS_R),rechts2(indHS_R),'ro');
+plot(tijdsas(indTO_R),rechts2(indTO_R),'go');
+title('Voetstapdata rechterbeen met Toe-off en Heel-strike')
+xlabel('Tijd (seconde)');
+ylabel('Detectie van een voetstap');
 hold off
 
 %% Verwijderen van de eerste stap zodat we alleen complete stappen hebben
