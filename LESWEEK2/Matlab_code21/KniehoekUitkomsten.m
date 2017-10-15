@@ -1,4 +1,8 @@
 function [ gemKniehoek, mediaanKniehoek, maxKniehoek, minKniehoek, maxKniehoekSnelheid ] = KniehoekUitkomsten( kniehoek, kniehoekSnelheid )
+
+
+
+
 % Met deze functie krijg je snel de statistische waarde van de kniehoek
 % Inputs: Kniehoek    -- een vector met getallen
 % Outputs: Het gemiddelde, Mediaan, Maximale Kniehoek en Minimale Kniehoek
