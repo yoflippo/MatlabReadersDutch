@@ -9,3 +9,9 @@ resultaatVector(7)  = vectorA(7)* vectorA(8);   %16*17
 resultaatVector(8)  = vectorA(8)* vectorA(9);   %17*18
 resultaatVector(9)  = vectorA(9)* vectorA(10);  %18*19
 resultaatVector(10) = vectorA(10)* vectorA(11); %19*20
+plot(resultaatVector)
+xlabel('Stand vermogen')
+ylabel('Daadwerkelijk vermogen')
+title('Fietsergometer')
+grid on
+grid minor
