@@ -1,1 +1,0 @@
-De OR-operator kan niet worden toegepast op vectoren.

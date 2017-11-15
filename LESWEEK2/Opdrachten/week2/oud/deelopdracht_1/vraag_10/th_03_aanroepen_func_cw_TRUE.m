@@ -1,1 +1,0 @@
-Een functie kan worden aangeroepen vanuit je Command Window.
