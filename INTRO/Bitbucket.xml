@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<article lang="">
+  <para>Mooi! Jij hebt een fout of tekortkoming ontdekt aan 1 van de readers van Biostatica Matlab. </para>
+  <para>Ook ben je bereid ons (en jezelf) te helpen deze readers duidelijker, vollediger en beter te maken. </para>
+  <para/>
+  <para>Wij gebruiken de onderstaande tool om het voor iedereen inzichtelijk en gemakkelijk te maken wat er fout is en waar aan gewerkt moet worden.</para>
+  <para/>
+  <para>Volg deze 4 stappen:</para>
+  <orderedlist>
+    <listitem>
+      <para>Ga naar: <ulink url="https://bitbucket.org/yflippo/biostatica-matlab-readers/issues?status=new&amp;status=open">https://bitbucket.org/yflippo/biostatica-matlab-readers/issues?status=new&amp;status=open</ulink></para>
+    </listitem>
+    <listitem>
+      <para>Klik vervolgens hier:</para>
+      <para>
+        <inlinegraphic fileref="embedded:Image1" width="6.6752inch" depth="0.9256inch"/>
+        <para/>
+      </para>
+    </listitem>
+    <listitem>
+      <para>Vul hier de benodigde gegevens in, probeer volledig te zijn (noem de reader, pagina en wat beter moet en je studentennummer:</para>
+    </listitem>
+  </orderedlist>
+  <para>
+    <inlinegraphic fileref="embedded:Image2" width="5.6972inch" depth="5.3654inch"/>
+    <para/>
+    <para/>
+  </para>
+  <orderedlist>
+    <listitem>
+      <para><inlinegraphic fileref="embedded:Image3" width="1.5209inch" depth="0.5209inch"/><para/>De laatste stap:</para>
+    </listitem>
+  </orderedlist>
+</article>
