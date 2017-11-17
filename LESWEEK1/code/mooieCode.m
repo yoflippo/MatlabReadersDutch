@@ -13,7 +13,7 @@
 %   heupEnkellengte (hel): afstand tussen heup en enkel
 %
 % De kniehoek wordt dan gegeven door
-%   kniehoek = acos( (bbkl^2 + obl^2 - hel^2)/(2*bbl*obl) )
+%   kniehoek = acos( (bbl^2 + obl^2 - hel^2)/(2*bbl*obl) )
 
 % Constanten
 AANTAL_PROEFPERSONEN = 8;
