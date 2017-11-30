@@ -6,11 +6,12 @@
 
 
 
-honkbalVersnelling =  (12 32 12 39 18 37 27 19 30 19 20);
-maximaleVersnelling = Max(honkbalVersnelling);
+honkbalVersnelling =  [12 32 12 39 18 37 27 19 30 19 20];
+maximaleVersnelling = max(honkbalVersnelling);
 
 % de index van de maximaleVersnelling vinden:
 
-indexMaximaleVersnelling = honkbalversnelling(find(maximaleversnelling);
+indexMaximaleVersnelling = honkbalVersnelling(find(maximaleVersnelling));
+
 
 

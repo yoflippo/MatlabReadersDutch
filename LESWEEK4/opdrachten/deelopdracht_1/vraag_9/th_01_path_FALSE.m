@@ -1,0 +1,1 @@
+Wanneer je een for-loopje aanmaakt en je wilt er een vector uit krijgen moet je ee
